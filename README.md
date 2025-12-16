@@ -1,6 +1,6 @@
 # Hotel-Reservation-System
 Hotel Reservation System – Technical Test Skypay
-1) Supposons que toutes les fonctions soient regroupées dans un seul service. Est-ce une approche recommandée ? Expliquez.
+# 1) Supposons que toutes les fonctions soient regroupées dans un seul service. Est-ce une approche recommandée ? Expliquez.
 Non, ce n’est pas une approche recommandée sur le plan de la conception logicielle.
 Regrouper toutes les responsabilités dans un seul service viole plusieurs principes fondamentaux de l’ingénierie logicielle, notamment :
 
@@ -34,7 +34,7 @@ BookingService : gestion des réservations
 Cela améliore la lisibilité, la testabilité et la maintenabilité du code.
 
 
-2) Dans ce design, setRoom(..) ne doit pas impacter les réservations existantes. Quelle est une autre approche possible ? Quelle est votre recommandation ?
+# 2) Dans ce design, setRoom(..) ne doit pas impacter les réservations existantes. Quelle est une autre approche possible ? Quelle est votre recommandation ?
 
 Une autre approche consiste à versionner l’état des chambres au moment de la réservation.
 
